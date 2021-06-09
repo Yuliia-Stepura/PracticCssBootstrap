@@ -1,0 +1,254 @@
+    .buttonGreen {
+        background-color: rgb(163, 205, 140);
+        border-radius: 50px;
+        border-width: 0px;
+        color: white;
+        padding: 20px 15% 20px 15%;
+    }
+    
+    .buttonGreen:hover {
+        background-color: rgb(175, 221, 150);
+    }
+    
+    .buttonMenu:hover {
+        color: white;
+        box-shadow: inset 0 9999px 9999px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn-hover:hover {
+        border-color: white;
+    }
+    
+    .btn-hover {
+        color: white;
+        border: 1px solid transparent;
+    }
+    
+    .btn-round-pill {
+        border-radius: 20px;
+    }
+    
+    .font-family-Circe {
+        font-family: "Circe";
+    }
+    
+    .gradient {
+        background: linear-gradient(90deg, rgb(163, 205, 140) 0%, rgb(108, 166, 252) 100%);
+        height: 6px;
+    }
+    
+    .gradientBackground {
+        background: linear-gradient(180deg, rgba(56, 68, 95, 1) 0%, rgba(72, 96, 123, 1) 40%, rgba(56, 68, 95, 1) 100%);
+        width: 100%;
+    }
+    
+    .ovalbutton {
+        border: rgb(163, 205, 140) solid 2px;
+        color: rgb(163, 205, 140);
+        text-align: center;
+        width: 70%;
+        padding: 2% 1% 1% 1%;
+        background-color: rgb(66, 75, 100);
+    }
+    
+    .ovalbutton:hover {
+        border: rgb(180, 228, 154) solid 2px;
+        background-color: rgb(82, 93, 122);
+    }
+    
+    #number {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    
+    #percent {
+        background-color: white;
+        color: rgb(235, 90, 99);
+        font-size: 12px;
+        font-size: "bold";
+        padding: 5px 6px 5px 6px;
+        border-radius: 15px;
+    }
+    
+    #crypto {
+        padding-right: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    
+    sup {
+        text-transform: capitalize;
+        background-color: rgb(235, 90, 99);
+        border-radius: 5px;
+        padding: 2px;
+        font-size: "bold";
+    }
+    
+    @media (min-width: 1080) {
+        .svgimage {
+            width: 200px;
+            height: 200px;
+        }
+        #image1add {
+            width: 680px;
+            height: 400px;
+            padding-left: 3rem
+        }
+        #image2add {
+            width: 450px;
+            height: 250px;
+            padding-left: 3rem
+        }
+        #image3add {
+            width: 650px;
+            height: 350px;
+            padding-left: 3rem
+        }
+    }
+    
+    @media (min-width: 320) {
+        .ovalbutton {
+            width: 100%;
+            height: 54%;
+            padding: 1% 1% 1% 1%;
+        }
+        .svgimage {
+            width: 150px;
+            height: 150px;
+        }
+        #image1add {
+            width: 350px;
+            height: 100px;
+            padding-left: 0rem;
+        }
+        #image2add {
+            width: 350px;
+            height: 200px;
+            padding-left: 0rem;
+        }
+        #image3add {
+            width: 380px;
+            height: 130px;
+            padding-left: 0rem;
+        }
+        #input_send {
+            padding-left: 0px;
+        }
+        /* .scrolly {
+            overflow-y: auto;
+            width: 100%;
+            padding: 5px;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        } */
+    }
+    
+    @media (max-width: 1990px) {
+        .header {
+            background-image: url(bg1.png);
+            background-position: top;
+            background-size: cover;
+            width: 100%;
+            background-repeat: no-repeat;
+            height: 100vh;
+            /* border: 2px solid black;  grid-template-rows: 10vh 90vh; */
+            /*background-attachment: fixed;*/
+        }
+        .back {
+            /* display: flex;
+        justify-content: center; */
+            /* border: 2px solid black; */
+            background-image: url(bg2.png);
+            background-position: top;
+            background-size: cover;
+            width: 100%;
+            background-repeat: no-repeat;
+            height: 60vh;
+        }
+    }
+    
+    @media (max-width: 750px) {
+        .header {
+            background-size: cover;
+            height: 70vh;
+        }
+        .back {
+            background-position: center;
+            background-size: cover;
+            height: 70vh;
+        }
+    }
+    
+    @media (max-width: 1000px) {
+        .header {
+            background-size: cover;
+            height: 90vh;
+            /* grid-template-rows: 10vh 90vh; */
+            /*background-attachment: fixed;*/
+        }
+    }
+    
+    #contactusblock {
+        margin: 50px 80px -50px 80px;
+    }
+    
+    #ribbon {
+        background-image: url(ribbon.png);
+        height: 10px;
+    }
+    
+    #input_text {
+        /* height: 100px; */
+        text-align: start;
+    }
+    
+    #input_send {
+        width: 65%;
+        background-color: rgb(125, 163, 215);
+        color: white;
+        border: 0px;
+    }
+    
+    .contactus {
+        /* margin: 15% 80px -50px 80px;
+        display: grid;
+        grid-auto-flow: row;
+        align-items: center; border: 2px solid black;*/
+        padding: 12px;
+        resize: none;
+        border: none;
+        background-color: rgb(244, 247, 251);
+        /* width: 30%; */
+    }
+    
+    .font-family-Circe {
+        font-family: "Circe";
+        font-size: 16px;
+    }
+    
+    .table {
+        border: 1px solid darkgray;
+        padding: 12px 20px;
+        border-collapse: collapse;
+        font-size: 14px;
+        width: 90%;
+        text-align: center;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-family: "Circe";
+    }
+    
+    .tbltextcolor1 {
+        color: rgb(125, 163, 215);
+    }
+    
+    .tbltextcolor2 {
+        color: rgb(125, 161, 182);
+    }
+    
+    .tbltextcolor3 {
+        color: rgb(91, 186, 134);
+    }
